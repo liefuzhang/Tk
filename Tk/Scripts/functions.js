@@ -27,7 +27,7 @@ function buildName1b(lastName, firstName) {
 }
 buildName1b(undefined, 'bob'); // return bob Smith
 // rest param ...
-function buildName(firstName) {
+function buildName2(firstName) {
     var restOfName = [];
     for (var _i = 1; _i < arguments.length; _i++) {
         restOfName[_i - 1] = arguments[_i];

@@ -35,7 +35,7 @@ function buildName1b(lastName = "Smith", firstName: string) { // default param c
 buildName1b(undefined, 'bob'); // return bob Smith
 
 // rest param ...
-function buildName(firstName: string, ...restOfName: string[]) {
+function buildName2(firstName: string, ...restOfName: string[]) {
     return firstName + " " + restOfName.join(" ");
 }
 
