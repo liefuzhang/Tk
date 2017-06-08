@@ -25,4 +25,4 @@ var Clock = (function () {
     };
     return Clock;
 }());
-// Extending Interfaces
+// Interfaces Extending Classes (inherit all members, private, protected, public)

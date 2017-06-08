@@ -61,4 +61,6 @@ class Clock implements ClockInterface {
     constructor(h: number, m: number) { }
 }
 
-// Extending Interfaces
+// Interfaces Extending Classes (inherit all members, private, protected, public)
+
+
