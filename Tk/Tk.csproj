@@ -115,10 +115,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\advanced_types.ts" />
     <TypeScriptCompile Include="Scripts\basic.ts" />
     <TypeScriptCompile Include="Scripts\classes.ts" />
     <TypeScriptCompile Include="Scripts\functions.ts" />
+    <TypeScriptCompile Include="Scripts\generics.ts" />
     <TypeScriptCompile Include="Scripts\interface.ts" />
+    <TypeScriptCompile Include="Scripts\type_compatibility.ts" />
+    <TypeScriptCompile Include="Scripts\type_inference.ts" />
     <TypeScriptCompile Include="Scripts\typings\knockout\knockout.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\knockout\tests\jasmine.extensions.d.ts" />
   </ItemGroup>
